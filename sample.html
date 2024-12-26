@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .layer {
+            width: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 20px;
+            position: absolute;
+            top: -0px;
+            bottom: 0px;
+            visibility: hidden;
+            transition: 0.5s;
+            height: 0px;
+            overflow: hidden;
+        }
+
+        .layer a {
+            color: #ff004f;
+            text-decoration: none;
+            background-color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            /* Enable flexbox */
+            align-items: center;
+            /* Center vertically */
+            justify-content: center;
+            /* Center horizontally */
+            width: 60px;
+            /* Set a fixed width */
+            height: 60px;
+            /* Set a fixed height */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            /* Optional styling for better aesthetics */
+        }
+
+        .layer p {
+            text-align: center;
+            margin-top: -4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="projects" id="Projects">
+        <h1 style="margin-top: 0px;color: white;font-size: 50px;margin-left: 100px;padding-top: 30px;">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/nxttrendz.png" alt="">
+                <div class="layer">
+                    <p>NXT TRENDZ</p>
+                    <p>Rolled out an innovative e-commerce platform patterned after Amazon and Flipkart.
+                        Designed pages for Login, Products, and Product details with React Router and React components.
+                    </p>
+                    <a href="https://nxttrendzneeraj.ccbp.tech/login" target="_blank"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/todo.jpg" alt="">
+                <div class="layer">
+                    <p>TODO'S</p>
+                    <p>A comprehensive todo management tool designed to enhance productivity.Effortless task management
+                        through JavaScript-based CRUD operations with dynamic UI updates.
+                        Your tasks are always safe with local storage methods to ensure task persistence.</p>
+                    <a href="https://neerajtodonext.ccbp.tech/" target="_blank"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/wikipedia_Rx6fLAlIk.webp" alt="">
+                <div class="layer">
+                    <p>WIKIPEDIA SEARCH APPLICATION</p>
+                    <p>Unlock the vast wealth of knowledge on Wikipedia with a custom search application that delivers
+                        relevant and
+                        curated results. Quick and easy access to information has never been easier. </p>
+                    <a href="https://neerajwikinow.ccbp.tech/" target="_blank"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
